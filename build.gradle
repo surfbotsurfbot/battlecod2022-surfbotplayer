@@ -144,11 +144,11 @@ task version {
 
 task checkForUpdate() {
     group 'battlecode'
-    doLast {
-        version = getVersionFromWeb()
+    //doLast {
+    //    version = getVersionFromWeb()
 
-        if (versions.battlecode != version) print("\n\n\n\n\n\n\tNEW VERSION" + version + " AVAILABLE\n\trun ./gradlew update to download \n\n\n\n")
-    }
+    //    if (versions.battlecode != version) print("\n\n\n\n\n\n\tNEW VERSION" + version + " AVAILABLE\n\trun ./gradlew update to download \n\n\n\n")
+    //}
 }
 
 // This task pulls the newest version number from the website
